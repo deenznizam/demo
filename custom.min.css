@@ -1,0 +1,396 @@
+ .favourite-btn.active{
+ 	background-color: #fff;
+ }
+.logo-lg img{
+	height: 38px;
+}
+.dashboardBox .avatar-sm{
+	width: 60px;
+	height: 60px;
+}
+.dashboardLatestList .button{
+	    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboardLatestList .button i{
+	font-size: 25px;
+}
+.tableAvtTitle{
+	width: 32px;
+	height: 32px;
+}
+.cardDetWrap{
+	padding: 30px 15px;
+	text-align: center;
+}
+.carddetItem{
+	    margin-bottom: 6px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    border-bottom: 1px solid #2273991f;
+    padding-bottom: 5px;
+}
+.carddetItem:last-child{
+	margin-bottom: 0;
+}
+.carddetItem span:first-child{
+	    font-size: 25px;
+    color: #227399;
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+
+}
+.cardBgImgWrap{
+
+    width: 100%;
+    height: 160px;
+    position: relative;
+   
+}
+.cardBgImgWrap::before{
+	    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear,left bottom,left top,from(#221a52),to(#4b38b3));
+    background: linear-gradient(to top,#221a52,#4b38b3);
+    opacity: .6;
+    left: 0;
+    top: 0;
+    z-index:1;
+}
+.cardBgImg{
+	
+    position: absolute;
+     left: 0;
+    top: 0;
+     width: 100%;
+    height: 160px;
+        background-size: cover;
+    background-position: center;
+}
+.profileImgWrap{
+	    position: absolute;
+    top: 106px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.profileName{
+	margin-top: 60px;
+}
+.cardSocialLink img{
+	width: 35px;
+}
+.fltrFlxBtn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fltrFlxBtn a{
+	margin-right: 10px;
+	width: 150px !important;
+}
+.fltrFlxBtn.roleBtnWrap a{
+	margin-right: 10px;
+	width: 100% !important;
+}
+.fltrFlxBtn a i{
+	font-size: 17px;
+    position: relative;
+    top: 2px;
+}
+.updateWaiting{
+	    width: 100%;
+	    margin-top: 50px;
+    text-align: center;
+    background: #22739924;
+    padding: 50px 15px;
+    border-radius: 11px;
+    min-height: 422px;
+}
+.updateWaitingWrap img{
+	width: 400px;
+}
+.updateWaitingWrap span{
+	display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.updateSuccess{
+	    width: 100%;
+	    margin-top: 50px;
+    text-align: center;
+    background: #22739924;
+    padding: 50px 15px;
+    border-radius: 11px;
+    min-height: 422px;
+}
+.updateSuccessWrap img{
+	width: 100px;
+	margin-bottom: 15px;
+}
+.updateSuccessWrap {
+    margin-top: 85px;
+}
+.updatedCardList{
+	margin-top: 50px;
+}
+.updateSuccessWrap span{
+	display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.updatedCardList table{
+	position: relative;
+}
+.updatedCardList table::after{
+	position: absolute;
+	content: '';
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	transition: 0.3s ease-in-out;
+}
+.updatedCardList.updatedCardListactive table::after{
+	height: 0%;
+	transition: 3s ease-in-out;
+}
+.qrCodeTable{
+	width: 50px;
+}
+.cardListBox.dashboardBox .avatar-sm{
+	width: 50px;
+	height: 50px;
+} 
+.cardListBox.dashboardBox h4{
+	font-size: 16px !important;
+	font-weight: bold;
+} 
+.cardListBox.dashboardBox p{
+	margin-bottom: 10px !important;
+} 
+.cardListBox.dashboardBox .card.card-animate{
+	margin-bottom: 0px !important;
+} 
+.dashBtnValSize {
+	padding: 3px 15px;
+	width: 62px;
+}
+.themeWrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.themeItem{
+	margin-right: 20px;
+	margin-bottom: 40px;
+	position: relative;
+	
+	margin: auto;
+  
+}
+.themeItem img{
+width: 100%;
+}
+@media(min-width: 1450px){
+.themeItem{
+	margin-right: 20px;
+	margin-bottom: 40px;
+	position: relative;
+	width: 300px;
+	margin: auto;
+  
+}
+.themeItem img{
+height: 450px;
+}
+}
+.themeItemContent{
+    /*border: 1px solid #ccc;*/
+	 overflow: hidden;
+	 background: #fff;
+    padding: 15px;
+       margin-bottom: 15px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 1px 6px 0
+  rgba(32, 33, 36, .28);
+
+}
+.themeItemContent::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: 0.2;
+}
+.thameStatuBtn{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0px;
+}
+.thameStatuBtn a{
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	display: inline-block;
+	padding: 5px 20px;
+	color: #fff;
+	/*background-color: red;*/
+	border-radius: 7px;
+
+}
+.ThemeStatusBtn{
+	background-color: red;
+}
+.thameStatuBtn a.Themeactive{
+	background: green;
+}
+.thameStatuBtn a.themeDefaultBtn{
+	background-color: #bfbfbf;
+	transition: 0.3s all linear;
+	color: #000;
+
+}
+.thameStatuBtn a.themeDefaultBtn:hover{
+	background-color: #227399;
+	transition: 0.3s all linear;
+	color: #fff;
+}
+.thameStatuBtn a.themeDefaultBtn.defaultActive{
+	background-color: #227399;
+	color: #fff;
+}
+.themeName{
+	    /* position: absolute; */
+    top: 0;
+    color: #000;
+    z-index: 10;
+    left: 0;
+    top: 0px;
+    background: #ffffff;
+    padding: 5px 15px;
+    font-weight: bold;
+    right: 0;
+    margin: auto;
+    /* border-bottom-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 9px;
+    border-radius: 8px;
+ 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.themeStatuslbl{
+	padding: 4px 15px;
+}
+/*.themeItem:hover:after{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.4;
+
+}*/
+
+.userTblList .avatar-xxs{
+	width: 40px;
+	height: 40px;
+}
+.userRoleAccordion .accordion-item {
+    width: 100%;
+    display: flex;
+    border-color: #ced4da;
+    }
+.userRoleAccordion .accordion-item .accordion-header{
+	width: 25%;
+}
+.userRoleAccordion .accordion-item .accordion-button{
+	background-color: rgba(53, 119, 241, .1)!important;
+}
+.userRoleAccordion .accordion-item .accordion-button::after{
+content: unset;
+}
+.userRoleAccordion .accordion-item .accordion-button .form-check label{
+position: relative;
+top: 3px;
+}
+.roleOptionItemWrap{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.roleOptionItem{
+	margin-right: 50px;
+}
+.share_count span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #299cdb;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.profile-setting-img{
+	height: 200px;
+}
+.profilePgTitle{
+	position: absolute;
+    bottom: 0;
+    top: -38px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    padding-left: 36px;
+    font-size: 39px;
+}
+.profile-wid-bg::before{
+	opacity: 0.8;
+}
+.roleColTitle{
+	background-color:#eaf1fe ;
+	padding: 15px;
+}
+.roleColTitle span{
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	width: 74%;
+	text-align: center;
+	display: inline-block;
+
+}
+.roleColTitle span:first-child{
+	display: inline-block;
+	width: 25%;
+}
